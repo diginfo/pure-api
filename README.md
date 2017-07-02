@@ -1,5 +1,5 @@
 # pure-api
-[API For Pure Manufacturing](https://www.puremfg.net)
+[Web-Based MES production scheduling & WIP tracking software](https://www.puremfg.net)
 
 Pure Manufacturing software has a comprehensive yet simple Application Program Interface (A.P.I).
 
