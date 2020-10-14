@@ -14,10 +14,7 @@ API requests are made through secure (https) POST requests using standard JSON n
 Request id's that are prefixed with an underscore '_' are command / option ids, and all other fields not prefixed with an underscore are data field IDs.
 
 <h2>API Request Format</h2>
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+
 
 ```javascript
 {
