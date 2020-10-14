@@ -16,7 +16,7 @@ SQLID functions also contain code that performs data validation, and often compl
 
 Request id's that are prefixed with an underscore '_' are commands / options, and all other fields not prefixed with an underscore are data field IDs that are used in record selection / filtering.
 
-For security reasons, we do not publish a list of all sqlids and the data and filter fields they contain or require.
+For security reasons, we do not publish a list of all sqlids and the data and filter fields they contain or require. This information is available through our support / helpdesk system on a case by case basis.
 
 ### Request Example
 
