@@ -47,7 +47,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 
 ### PART_ID
 - example: PART_ID=001-0002-003
-- description: This is the key field used to select the required record. There might be multiple keys.
+- description: This is the key field used to select the required record. There might be multiple keys to filter the request to return the requested data.
 
 
 ## API Response
