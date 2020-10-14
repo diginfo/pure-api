@@ -15,14 +15,14 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 
 <h2>API Request Format</h2>
 ```javascript
-	{
-		_userid: 'myuser',
-		_passwd: 'mypass',
-		_sqlid: 'inv^trace_trans',
-		_func: 'get',
-		_format: 'xml'
+{
+	_userid: 'myuser',
+	_passwd: 'mypass',
+	_sqlid: 'inv^trace_trans',
+	_func: 'get',
+	_format: 'xml'
 
-		PART_ID: '001-DM-0002-003',
+	PART_ID: '001-DM-0002-003',
 
-	}
+}
 ```
