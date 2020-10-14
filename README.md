@@ -60,8 +60,17 @@ Generally, if a response contains a single record, then it will be returned as a
 
 ## Example Response: 
 
+The following is a JSON response for the example API request above:
+
 ```javascript
 
-{"trace":[],"part":[{"ROWID":"","ID":"","DESCRIPTION":"Clamp Body","ALIAS_DESC":"CLAMP","USER_1":"","USER_2":"","USER_3":"","USER_4":"","USER_5":"","USER_6":"","USER_7":"","USER_8":"","USER_9":"","USER_10":"","PART_CLASS_ID":"MAKE_STAGED","TRACEABLE":"N","LOT_SIZE":0,"TRACE_USER_1_LBL":"","TRACE_USER_2_LBL":"","TRACE_USER_3_LBL":"","TRACE_USER_4_LBL":"","TRACE_USER_5_LBL":"","TRACE_USER_6_LBL":"","TRACE_USER_7_LBL":"","TRACE_USER_8_LBL":"","TRACE_USER_9_LBL":"","TRACE_USER_10_LBL":"","UDF_LAYOUT_ID":"","BAL_QTY":"","PART_REV_NO":"NA","ACTIVE":"Y","UNIT_MATERIAL_COST":0,"PRODUCT_CODE":"TURNKEY","USER_ID":"","CREATE_DATE":"","LAST_MODIFIED_USER_ID":"","LAST_MODIFIED_DATE":"","SITE_ID":"","UOM_ID":"EA","DIM_TRACKED":"N","LENGTH":"N","WIDTH":"N","HEIGHT":"N","DIM_UOM":"","UNIT_CONSUMABLE_COST":0,"LOCKED":"N","LAST_COUNT_DATE":"","CYCLE_COUNT":0,"ECN_ID":"","SAFETY_STOCK_QTY":0,"UDF_1":"","UDF_2":"","UDF_3":"","UDF_4":"","UDF_5":"","UDF_6":"","UDF_7":"","UDF_8":"","UDF_9":"","UDF_10":"","DATA_TYPE_1":"","DATA_OPTIONS_1":""}]}
+{
+	"trace":[
+	
+	],
+	"part":[
+		{"ROWID":"","ID":"","DESCRIPTION":"Clamp Body","ALIAS_DESC":"CLAMP","USER_1":"","USER_2":"","USER_3":"","USER_4":"","USER_5":"","USER_6":"","USER_7":"","USER_8":"","USER_9":"","USER_10":"","PART_CLASS_ID":"MAKE_STAGED","TRACEABLE":"N","LOT_SIZE":0,"TRACE_USER_1_LBL":"","TRACE_USER_2_LBL":"","TRACE_USER_3_LBL":"","TRACE_USER_4_LBL":"","TRACE_USER_5_LBL":"","TRACE_USER_6_LBL":"","TRACE_USER_7_LBL":"","TRACE_USER_8_LBL":"","TRACE_USER_9_LBL":"","TRACE_USER_10_LBL":"","UDF_LAYOUT_ID":"","BAL_QTY":"","PART_REV_NO":"NA","ACTIVE":"Y","UNIT_MATERIAL_COST":0,"PRODUCT_CODE":"TURNKEY","USER_ID":"","CREATE_DATE":"","LAST_MODIFIED_USER_ID":"","LAST_MODIFIED_DATE":"","SITE_ID":"","UOM_ID":"EA","DIM_TRACKED":"N","LENGTH":"N","WIDTH":"N","HEIGHT":"N","DIM_UOM":"","UNIT_CONSUMABLE_COST":0,"LOCKED":"N","LAST_COUNT_DATE":"","CYCLE_COUNT":0,"ECN_ID":"","SAFETY_STOCK_QTY":0,"UDF_1":"","UDF_2":"","UDF_3":"","UDF_4":"","UDF_5":"","UDF_6":"","UDF_7":"","UDF_8":"","UDF_9":"","UDF_10":"","DATA_TYPE_1":"","DATA_OPTIONS_1":""}
+	]
+}
 
 ```
