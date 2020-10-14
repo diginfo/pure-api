@@ -22,7 +22,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 	_func: 'get',
 	_format: 'xml'
 
-	PART_ID: '001-DM-0002-003',
+	PART_ID: '001-0002-003',
 
 }
 ```
@@ -46,7 +46,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 - example: _func=get, _func=add, _func=del, _func=upd
 
 ### PART_ID
-- example: PART_ID=ADBD-12345-000
+- example: PART_ID=001-0002-003
 - description: This is the key field used to select the required record. There might be multiple keys.
 
 
