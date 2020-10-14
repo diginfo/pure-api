@@ -1,3 +1,27 @@
+<h1>Pure Manufacturing API</h1>
+
+<h2>Introduction</h2>
+<p>
+API requests in Pure Manufacturing are calls that are made via http POST requests, to the backend HTTP Server.
+</p>
+<p>
+All API requests call functions know as SQLIDs (_sqlid), these are pre-defined functions that translate requests sent via http, into SQL queries, that are performed on the database.
+</p>
+<p>
+SQLIDs may also contain code that performs data validation, and complex calculations on data queried, before being returned to the request, and / or before being saved to the database.
+</p>
+<p>
+For security reasons, direct, raw SQL requests are NOT exposed directly either via http request, or via connections to the database TCP port on the server.
+</p>
+<p>
+API requests are made through secure (https) POST requests using standard JSON notation, and data is returned by default as JSON, and may optionaly be returned as XML using the _format: 'xml' option.
+</p>
+<p>
+Request id's that are prefixed with an underscore '_' are command / option ids, and all other fields not prefixed with an underscore are data field IDs.
+</p>
+
+<h2>Requests</h2>
+
 # pure-api
 [Web-Based MES production scheduling & WIP tracking software](https://www.puremfg.net)
 
