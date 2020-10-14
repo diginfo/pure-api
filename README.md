@@ -22,7 +22,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 	_passwd: 'mypass',
 	_sqlid: 'inv^partall',
 	_func: 'get',
-	_format: 'xml'
+	_format: 'json'
 
 	PART_ID: '001-0002-003',
 
@@ -47,9 +47,13 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 - description: The action to perform, get a record, add a new record, delete a record, update a record.
 - example: _func=get, _func=add, _func=del, _func=upd
 
+#### _format
+- description: The format of the response data, either the default JSON or XML.
+- example: _format=json, format=xml
+
 #### PART_ID
 - example: PART_ID=001-0002-003
-- description: This is the key field used to select the required record. There might be multiple keys to filter the request to return the requested data.
+- description: This is a data field, and the key field used to select / filter the required record. There might be multiple keys to filter the request to return the requested data.
 
 
 ## API Response
