@@ -53,7 +53,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 
 #### PART_ID
 - example: PART_ID=001-0002-003
-- description: This is a data field, and the key field used to select / filter the required record. There might be multiple keys to filter the request to return the requested data.
+- description: This has no underscore prefix and so is a data field. It is the key field used to select / filter the required record. There might be multiple keys to filter the request to return the requested data, and each sqlid has diferent filter fields.
 
 
 ## API Response
