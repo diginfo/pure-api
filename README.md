@@ -15,6 +15,11 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 
 <h2>API Request Format</h2>
 ```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```javascript
 {
 	_userid: 'myuser',
 	_passwd: 'mypass',
