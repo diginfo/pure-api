@@ -38,7 +38,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 - example: _userid = 'myuser'
 
 ### _sqlid
-- description: A pre-defined backend function id that queries the database and / or performs actions on the data requested or sent.
+- description: A pre-defined backend function id that queries the database and / or performs actions on the data requested or sent. Each sqlid is prefixed with the module ID and the carat '^' delimter.
 - example: inv^trace_trans = module^function-name
 
 ### _func
