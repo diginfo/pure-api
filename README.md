@@ -14,8 +14,7 @@ API requests are made through secure (https) POST requests using standard JSON n
 Request id's that are prefixed with an underscore '_' are command / option ids, and all other fields not prefixed with an underscore are data field IDs.
 
 <h2>API Request Format</h2>
-```
-{
+```{
 	_userid: 'myuser',
 	_passwd: 'mypass',
 	_sqlid: 'inv^trace_trans',
@@ -24,5 +23,4 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 	
 	PART_ID: '001-DM-0002-003',
 	
-}
-```
+}```
