@@ -13,8 +13,7 @@ API requests are made through secure (https) POST requests using standard JSON n
 
 Request id's that are prefixed with an underscore '_' are command / option ids, and all other fields not prefixed with an underscore are data field IDs.
 
-<h2>API Request Format</h2>
-
+## API Request Example
 
 ```javascript
 {
@@ -28,3 +27,11 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 
 }
 ```
+
+## API Request Fields
+
+- query id: _passwd
+- description: password for the user
+- example: _passwd = 'mypass'
+
+
