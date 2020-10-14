@@ -55,15 +55,18 @@ Response data is returned by default as JSON, but may optionaly be returned as X
 
 A response may be either a JSON Object `{}` or a JSON array `[]` Depending upon the type of data requested.
 
-Generally, if a response contains a single record, then it will be returned as an object `{}` and if the response contains multiple records then it is returned as an array `[]`.
+Generally, if a response contains a single record, then it will be returned as an object `{}` and if the response contains multiple records then it is returned as an array of objects `[{},{},{}]`.
 
 
 ## Example Response: 
 
-The following is a JSON response for the example API request above:
+The following is a JSON response for the example API request above.
+
+It returns an object `{}` as this is a single record.
 
 ```javascript
 
-{"ROWID":2352,"ID":"001-0002-003","DESCRIPTION":"Gripper Clamp Body","ALIAS_DESC":"CLAMP","USER_1":"","USER_2":"","USER_3":"","USER_4":"","USER_5":"","USER_6":"","USER_7":"","USER_8":"","USER_9":"","USER_10":"","PART_CLASS_ID":"MAKE_STAGED","TRACEABLE":"N","LOT_SIZE":0,"TRACE_USER_1_LBL":"","TRACE_USER_2_LBL":"","TRACE_USER_3_LBL":"","TRACE_USER_4_LBL":"","TRACE_USER_5_LBL":"","TRACE_USER_6_LBL":"","TRACE_USER_7_LBL":"","TRACE_USER_8_LBL":"","TRACE_USER_9_LBL":"","TRACE_USER_10_LBL":"","UDF_LAYOUT_ID":"","BAL_QTY":"","PART_REV_NO":"NA","ACTIVE":"Y","UNIT_MATERIAL_COST":0,"PRODUCT_CODE":"TURNKEY","USER_ID":"","CREATE_DATE":"2017-02-06T12:57:28.000Z","LAST_MODIFIED_USER_ID":"","LAST_MODIFIED_DATE":"","SITE_ID":"","UOM_ID":"EA","DIM_TRACKED":"N","LENGTH":"N","WIDTH":"N","HEIGHT":"N","DIM_UOM":"","UNIT_CONSUMABLE_COST":0,"LOCKED":"N","LAST_COUNT_DATE":"","CYCLE_COUNT":0,"ECN_ID":"","SAFETY_STOCK_QTY":0,"UDF_1":"","UDF_2":"","UDF_3":"","UDF_4":"","UDF_5":"","UDF_6":"","UDF_7":"","UDF_8":"","UDF_9":"","UDF_10":"","PRICE":{}}
+{"ROWID":2352,"ID":"001-0002-003","DESCRIPTION":"Gripper Clamp Body","ALIAS_DESC":"CLAMP","USER_1":"","USER_2":"","USER_3":"","USER_4":"","USER_5":"","USER_6":"","USER_7":"","USER_8":"","USER_9":"","USER_10":"","PART_CLASS_ID":"MAKE_STAGED","TRACEABLE":"N","LOT_SIZE":0,"TRACE_USER_1_LBL":"","TRACE_USER_2_LBL":"","TRACE_USER_3_LBL":"","TRACE_USER_4_LBL":"","TRACE_USER_5_LBL":"","TRACE_USER_6_LBL":"","TRACE_USER_7_LBL":"","TRACE_USER_8_LBL":"","TRACE_USER_9_LBL":"","TRACE_USER_10_LBL":"","UDF_LAYOUT_ID":"PART","BAL_QTY":0,"PART_REV_NO":"NA","ACTIVE":"Y","UNIT_MATERIAL_COST":0,"PRODUCT_CODE":"XCODE","USER_ID":"MYUSER","CREATE_DATE":"2017-02-06T12:57:28.000Z","LAST_MODIFIED_USER_ID":"","LAST_MODIFIED_DATE":"","SITE_ID":"","UOM_ID":"EA","DIM_TRACKED":"N","LENGTH":"N","WIDTH":"N","HEIGHT":"N","DIM_UOM":"","UNIT_CONSUMABLE_COST":0,"LOCKED":"N","LAST_COUNT_DATE":"","CYCLE_COUNT":0,"ECN_ID":"","SAFETY_STOCK_QTY":0,"UDF_1":"","UDF_2":"","UDF_3":"","UDF_4":"","UDF_5":"","UDF_6":"","UDF_7":"","UDF_8":"","UDF_9":"","UDF_10":""}
 
 ```
+
