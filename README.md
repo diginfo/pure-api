@@ -8,7 +8,7 @@ For security reasons, raw SQL requests are NOT exposed directly either via http 
 ## API Requests
 
 ### Overview
-All API requests primarily call backen functions know as **SQLIDs** (_sqlid), these are unique, pre-defined functions that translate requests sent via http, into SQL queries, that are performed on the database.
+All API requests primarily call backend functions know as **SQLIDs** (_sqlid), these are unique, pre-defined functions that translate requests sent via http, into SQL queries, that are performed on the database.
 
 SQLIDs may also contain code that performs data validation, and complex calculations on data queried, before being returned to the request, and / or before being saved to the database.
 
