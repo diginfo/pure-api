@@ -30,7 +30,7 @@ Request id's that are prefixed with an underscore '_' are command / option ids, 
 
 ## API Request Fields
 
-- query id: _passwd
+### query id: _passwd
 - description: password for the user
 - example: _passwd = 'mypass'
 
